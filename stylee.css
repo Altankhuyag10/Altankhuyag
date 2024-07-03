@@ -1,0 +1,29 @@
+.box {
+  background-color: yellow;
+  height: 30px;
+  width: 30px;
+}
+.container {
+  background-color: lightblue;
+  height: 200px;
+  width: 200px;
+  gap: 5px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.pink {
+  display: flex;
+  background-color: pink;
+  height: 200px;
+  width: 200px;
+  gap: 5px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hondlon {
+  display: flex;
+}

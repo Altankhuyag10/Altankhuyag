@@ -1,0 +1,19 @@
+h1 {
+  color: blue;
+}
+
+.Altuka {
+  font-size: 30px;
+}
+
+#bombog {
+  color: aqua;
+}
+
+header {
+  position: fixed;
+  background-color: white;
+  top: 0;
+  text-align: center;
+  width: 100%;
+}
