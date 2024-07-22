@@ -1,8 +1,16 @@
+
+
+html,body{
+  transition: 0.3s ease;
+}
+
 p {
-  text-align: center;
+text-align: center;
+font-size: 30px;
 }
 h2 {
   text-align: center;
+  font-size: 40px;
 }
 a {
   text-align: center;
@@ -11,10 +19,218 @@ a {
 nav {
   text-align: center;
 }
+.atag{
+  font-size: 25px;
+  color: black;
+}
+.end{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 header {
   position: fixed;
   background-color: white;
   top: 0;
-  align-items: center;
+  z-index: 1;
+  align-items: center; 
   width: 100%;
 }
+div a{
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+p {
+  font-size: 25px;
+}
+.gold {
+  position: relative;
+  display: flex;
+  
+}
+.gold img{
+  width: 50vw;
+}
+.zurag {
+  position: relative;
+  display: flex;
+}
+.gg {
+  position: absolute;
+  bottom: 20px;
+  color: white;
+}
+.dog {
+  position: absolute;
+  color: black;
+  font-size: 20px;
+  bottom: 10px;
+  left: 20px;
+  width: 40px;
+background-color: white;
+border-radius: 30px;
+padding: 5px;
+}
+.nud {
+  position: absolute;
+  right: 340px;
+bottom: 20px;
+color: aliceblue;
+}
+h3 {
+font-size: 50px;
+color: black;
+}
+body {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.sneakers {
+position: relative;
+display: flex;
+justify-content: space-between;
+}
+nav a:hover {
+  border-bottom: 2px solid black
+  
+}
+button:hover {
+  background-color: red
+}
+.nom {
+  display: flex;
+}
+.zuu {
+  position: absolute;
+  bottom: 20px;
+  color: white;
+}
+.what {
+  position: absolute;
+  color: black;
+  bottom: 10px;
+  left: 20px;
+  width: 40px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 5px;
+}
+.dinner {
+  position: absolute;
+  right: 340px;
+  bottom: 20px;
+  color: aliceblue;
+}
+.tomor {
+position: absolute;
+right: 1650px;
+bottom: 0px;
+color: black;
+}
+.Mah {
+  position: absolute;
+  right: 1120px;
+  bottom: 0px;
+  color: black;
+}
+.soccer {
+  position: absolute;
+  right: 600px;
+  bottom: 0px;
+  color: black;
+}
+.gadaa {
+  position: absolute;
+  right: 90px;
+  bottom: 0px;
+  color: black;
+}
+.mod {
+  position: relative;
+  display: flex;
+}
+.mos {
+  position: absolute;
+  bottom: 20px;
+  color: white;
+  right: 1380px;
+}
+.kaka {
+  position: absolute;
+  bottom: 20px;
+  color: aliceblue;
+  right: 700px;
+}
+.speed {
+  position: absolute;
+  bottom: 20px;
+  color: aliceblue;
+  right: 100px;
+}
+.error {
+  position: absolute;
+  color: black;
+  bottom: 10px;
+  left: 20px;
+  width: 40px;
+background-color: white;
+border-radius: 30px;
+padding: 5px;
+}
+.wwe {
+  position: absolute;
+  color: black;
+  bottom: 10px;
+  left: 20px;
+  width: 40px;
+background-color: white;
+border-radius: 30px;
+padding: 5px;
+}
+.ucl {
+  position: absolute;
+  color: black;
+  bottom: 10px;
+  left: 20px;
+  width: 40px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 5px;
+}
+@media screen and (max-width: 480px) {
+  .gold img{
+    width: 100vw;
+  }
+  .gold{
+    flex-direction: column;
+  }
+  .gg h2{
+    font-size: 24px;
+  }
+  .zurag{
+    flex-direction: column;
+  }
+  h2{
+    font-size: 35px;
+  }
+  .sneakers{
+    object-fit: cover;
+  }
+
+  .mod{
+    flex-direction: column;
+  }
+  .mod img{
+    width: 100vw;
+  }
+  .tob img{
+    width: 100vw;
+  }
+} 
+  
+
