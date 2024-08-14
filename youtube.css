@@ -1,0 +1,132 @@
+header{
+     width: 100vw;
+     background-color: white;
+     margin: 0;
+}
+.left{
+    display: flex;
+    background-color: white;
+width: 13vw;
+height: 1067px;
+flex-direction: column;
+}
+h2{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    margin: 0;
+}
+.right{
+    background-color: white;
+    width: 87vw;
+    height: 1067px;
+}
+.des{
+    display: flex;
+    gap: 10px;
+    height: 30px;
+    width: 350px;
+    background-color: white;
+}
+.video{
+    height: 200px;
+    width: 350px;
+    background-color: white;
+}
+.container{
+    display: flex;
+}
+.huree{
+    display: flex;
+    flex-direction: column;
+    
+}
+.super{
+    display: flex;
+    margin: 12px;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.svg{
+    height: 20px;
+    width: 20px;}
+.header{
+    background-color: white;
+    height: 67px;
+}
+.kkl{
+    display: flex;
+    flex-wrap: wrap;
+}
+.oo{
+    background-color: white;
+    height: 300px;
+    width: 375px;
+    margin: 15px;
+}
+.eleven{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+background-color: white;
+width: 1840px;
+height: 67px;
+}
+.nine{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-right: 56px;
+}
+.filter{
+    display: flex;
+    font-size: 11px;
+    background-color: white;
+    width: 87vw;
+    right: 10px;
+}
+video{
+    position: absolute;
+}
+.rd{
+    color: aliceblue;
+}
+.app{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+img{
+    border-radius: 20px;
+}
+.coco{
+    height: 40px;
+    width: 40px;
+}
+.earth{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.gang{
+    background-color: gainsboro;
+    width: 84px;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+.ten{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: gainsboro;
+    border-radius: 30px;
+    width: 470px;
+}
+.ww{
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}

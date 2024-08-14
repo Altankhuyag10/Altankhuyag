@@ -53,11 +53,14 @@ p {
   
 }
 .gold img{
-  width: 50vw;
+  width: 49vw;
 }
 .zurag {
   position: relative;
   display: flex;
+}
+.zurag img{
+  width: 49vw;
 }
 .gg {
   position: absolute;
@@ -107,7 +110,7 @@ button:hover {
 }
 .zuu {
   position: absolute;
-  bottom: 20px;
+  bottom: -1300px;
   color: white;
 }
 .what {
@@ -122,8 +125,8 @@ button:hover {
 }
 .dinner {
   position: absolute;
-  right: 340px;
-  bottom: 20px;
+  right: 400px;
+  bottom: -1300px;
   color: aliceblue;
 }
 .tomor {
@@ -164,13 +167,13 @@ color: black;
   position: absolute;
   bottom: 20px;
   color: aliceblue;
-  right: 700px;
+  right: 685px;
 }
 .speed {
   position: absolute;
   bottom: 20px;
   color: aliceblue;
-  right: 100px;
+  right: 70px;
 }
 .error {
   position: absolute;
@@ -202,9 +205,16 @@ padding: 5px;
   border-radius: 30px;
   padding: 5px;
 }
+.tob img{
+  width: 98vw;
+}
 @media screen and (max-width: 480px) {
   .gold img{
     width: 100vw;
+  }
+  .minorimg{
+    width: 100vw;
+    height: 350px;
   }
   .gold{
     flex-direction: column;
@@ -215,11 +225,14 @@ padding: 5px;
   .zurag{
     flex-direction: column;
   }
+  .zurag img{
+    width: 100vw;
+  }
   h2{
     font-size: 35px;
   }
   .sneakers{
-    object-fit: cover;
+    flex-direction: column;
   }
 
   .mod{
@@ -231,6 +244,66 @@ padding: 5px;
   .tob img{
     width: 100vw;
   }
-} 
-  
-
+  .atag{
+    font-size: 16px;
+  }
+  .dinner{
+    bottom: -771px;
+    right: 91px;
+  }
+  main{
+    margin-top: 70px;
+  }
+  .zuu{
+    bottom: -460px;
+  }
+  .gg{
+    bottom: 311px;
+    right: 234px;
+  }
+  .nud{
+    right: 40px;
+  }
+  .tomor{
+    right: 213px;
+    bottom: 904px;
+  }
+  .Mah{
+    right: 213px;
+    bottom: 598px;
+  }
+  .soccer{
+    right: 198px;
+    bottom: 298px;
+  }
+  .gadaa{
+    right: 213px;
+  }
+  .mos{
+    bottom: 1080px;
+    right: 70px;
+  }
+  .kaka{
+    bottom: 549px;
+    right: 27px;
+  }
+  .what{
+bottom: -17px;
+  }
+  .dog{
+    bottom: -13px;
+    font-size: 17px;
+  }
+  .error{
+    bottom: 1px;
+  }
+  .wwe{
+    bottom: -1px;
+  }
+  .speed{
+ right: 16px;
+  }
+  .ucl{
+    bottom: -6px;
+  }
+}
